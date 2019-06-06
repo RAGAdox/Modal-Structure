@@ -1,4 +1,5 @@
-.container {
+@import url("https://fonts.googleapis.com/css?family=ncode+Sans+Expanded|Source+Code+Pro&display=swap");
+.mbody {
   background: #c04848; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -12,5 +13,41 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: contain;
   color: aliceblue;
+  font-size: 1.5em;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  overflow: hidden;
+}
+nav {
+  background: white;
+  color: black;
+}
+.content {
+  padding: 15%;
+  font-family: "Source Code Pro", monospace;
+  margin: 5%;
+}
+#subHeading {
+  font-size: 50%;
+}
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 24em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
