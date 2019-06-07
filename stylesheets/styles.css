@@ -27,8 +27,22 @@ nav {
 .content {
   padding: 15%;
   font-family: "Source Code Pro", monospace;
-  margin: 5%;
+  text-shadow: 2px  2px black;
+}
+#develop {
+  max-width: 200px;
 }
 #subHeading {
   font-size: 50%;
+}
+.imgContent {
+  width: 100%;
+}
+@media only screen and (max-width: 992px) {
+  .content {
+    padding: 10%;
+  }
+  #develop {
+    float: none !important;
+  }
 }
