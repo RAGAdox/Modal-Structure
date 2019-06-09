@@ -39,6 +39,19 @@ nav {
 .imgContent {
   width: 100%;
 }
+.card-body {
+  display: none;
+}
+.card:hover > .card-body {
+  display: initial;
+}
+
+#skills {
+  padding: 5%;
+  position: relative;
+  left: 5%;
+  right: 5%;
+}
 @media only screen and (max-width: 992px) {
   .content {
     padding: 10%;
