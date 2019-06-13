@@ -33,6 +33,7 @@ nav {
   text-shadow: 1px 1px black;
 }
 #develop {
+  left: 5%;
   max-width: 200px;
 }
 #subHeading {
@@ -55,4 +56,7 @@ nav {
   #develop {
     float: none !important;
   }
+}
+#Layer_4 {
+  fill: blue;
 }

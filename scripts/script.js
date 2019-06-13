@@ -16,7 +16,7 @@ let typer = () => {
     i++;
     setTimeout(typer, speed);
   }
-  if (i >= txt.length && i < txt2.length) {
+  if (i >= txt.length) {
     typeSmall();
   }
 };
